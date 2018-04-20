@@ -1,1 +1,28 @@
-df
+On The Fly == describes activities that develop or occur dynamically rather than result 
+of something like predefined. Based on dinamic factors.
+
+Just-in-time compilation [Dynamic translation / run-time compilation]
+
+Is a type of computer code execution which involves compilation during execution of a program at run time
+non prior to the execution. JIT is a combination of translation into machine code => 
+[ahead-of-time compilation [AOT==act of compiling a higher level programming language into a native [
+system-dependent] machine code] + interpretation] => combines speed of compiled code with the flexibility
+of interpretation.JIT is applied to some programs and can be used for certain capacities, especially to 
+dynamic ones, s.t. regualar expressions. LIke tet editor may compile a regular expression provided runtime
+to machine code to allow faster matching, which could not be ahead of runtime, the pattern provided only 
+at runtime => could not be ahead of run time[the time during program is running]. ;) JIT mostly consists of 
+souce code or bytecode[numeric codes,constants,references [numeric addresses] which encodes the result of 
+compiler parsing and performing semantic analysis to machine code[executed directly].] 
+
+Dynamic compilation
+
+Used by a programming language to make execution during implementations.
+
+Incremental compilation [used POP-11,POP-2...]
+
+Makes source code readable at any time from the terminal,from data structure, file
+constrcted by the running program.
+
+Portable Software ["cross platform"]
+  	
+
