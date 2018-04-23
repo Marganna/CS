@@ -3,3 +3,19 @@ Non Voltage Random Acces Memories [NVRAM]
 
 A NVRAM is a type of memory which retains the information after powering off the power supply.
 
+Virtual Memory
+
+Method to extending RAM capacity[extention is called pagefile, can be read from the hard disk as
+contigious part => faster than re-reading data from many different original loctions]. Virtual 
+memory is a porion of the computer's hard drive is put aside for scratch partition[Created on a 
+target device that has sufficient space avilable] or pageing file, and combincated with physical 
+RAM and the paging file from the system's total memory.
+
+Memory Cell
+
+Is a circuit that stores one bit of binary information and it must be set to store a logic 1 [high
+voltage level]and reset to store a logic 0. it's value is stored untill it is changed by the 
+set/reset process and is able to be accessed by reading it.
+Multiplexing and demultiplexing circuitry is used to select memory cells.Several memory cells share 
+the same address.  
+
