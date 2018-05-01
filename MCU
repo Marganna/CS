@@ -1,0 +1,15 @@
+N-bit ADC or N-bit DAC , N regfers to the resolution. For the ADC it refers to the number of
+bits the ADC outputs at each sapling time, in case of DAC it refers to the number of the 
+input.
+2^N == the number of levels in which the amplitide of the analog signal is divided. E.G. if
+N==5 => ther are 32 levels. 5-bit inputs.
+
+Number of channels
+
+So 16  analog inputs must be digitized with 20 bit resolution,process them into an FPGA
+let say. 16 ADCs could be used in parallel, for each input 1, or just using 20-bit ADC
+preced by an analog multiplexer which has 16 inputs selexted by 4-bit control signal.
+Based on the value of the control signal the input is selected and sent to the ADC,
+which produced a 20-bit output at each sampling time.
+
+ 
