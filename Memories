@@ -19,3 +19,12 @@ set/reset process and is able to be accessed by reading it.
 Multiplexing and demultiplexing circuitry is used to select memory cells.Several memory cells share 
 the same address.  
 
+EEPROM [E^ROM]==electrically erasable[erased by ultraviolet light & programmed again with new data]
+programmable read-only memory.
+
+Type of non-voltatile[NVM recovers stored information [unlike volatile memory-needs constant power] 
+after power cycled [turned off & back]] memory used in computers to store relatively small amount of
+data allowing individual byted to be erased & programmed[unlike the Flash-some region in the device at once]
+as an array of floating-gate transistors.This option slows down but some EEPROMs allow multy-byte 
+page operations having limited life for erasing and programming =>the design is important, to consider 
+the limitations. 
