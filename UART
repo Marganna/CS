@@ -1,0 +1,54 @@
+Universal Asyncronous Resiver and Transmitter
+
+Is a circuit which sends parallel data through a serial line serial communication == process of sending data 
+one bit at a time, sequentially over a comunication channel or computer bus [ in telecomunication and data 
+transmition].Communication occurs serial in most computers and networks as
+1. Coast of cables.
+2. Syncronisation several different systems, with parallel it is impractical.
+
+used
+
+EIA = Electronic industries allinace, electrical mechanical function and procedural characteristics of 
+2 communication equipment.
+
+UART includes 
+
+
+A transmitter [I guess PHY circuit included]  - essentially shift register which loads transmistion
+starts with a start bit which is  followed by data bits and an optional parity bit = for error detection
+and ends with stop bit which is 1. Odd parity bit is set to 0 when the data bits have odd number of 1's.
+Odd number of 1's => parity set 0.Prity bit checks the transmition bit set, total numbers of ones, to 
+check if that combination is od or even at both sides.
+
+Before the transmition starts, the transmiter and receiver must agree with parameters, to exchange info
+about parameters in advance. One of them is the boud rate [e.g.number of bits per second], the number of
+start bit and end bit, aslo the parity bit. [19,200 naud rate, 8data bits, 1 stop bit, and nor parity bit.
+
+UART receiving subsystem
+
+Since no clock information exists [as mentioned above exchange of parameters occur],=> use oversampling
+scheme [which could be used as clock, indicates when the input signal is valid] to obtaim middle ponts 
+of transmitted bits and then retrieve them at these points. 
+	
+	In signal processing oversampling is a process of sampling a signal with a sampling frequency
+	significally higher than the nyquist rate [harry nyquist].Oversampling used
+	1. To reduce the noise
+	2. Helps avoid aliasing and phase distortion by relaxing anti aliasing[2 & more diff signals bacome
+	indistinguish]  filter
+	3. Improves resolution
+	Bandwidth == the difference between highest frequency and the lowest one, inside the continuse set
+	of frequencies measured in hertz. It is also the limiting of a signal frequency domain.
+ Oversampling Procedure
+
+
+Idle state ==  not being used by any programm
+
+Every program occupies certain amount of processing time on the CPU.
+
+So idle used 
+1. to save power
+2. reduces the clock speed along CPU voltage and sending parts sleep mode loaded by OS scheduler
+	3. could be defined as a seperate task
+	4. hard coded
+	5. the number of stop bit could be set 1 or 1.5 or2.
+no haves anymore
